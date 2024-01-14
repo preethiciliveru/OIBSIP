@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prosuc</title>
+  <script>
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      var link = document.createElement('link');
+
+      // Set the attributes for the link element
+      link.href = '/images/icon.png';
+      link.rel = 'icon';
+      link.type = 'image / x - icon'
+
+      // Append the link element to the head section
+      document.head.appendChild(link);
+    } else {
+      var link = document.createElement('link');
+
+      // Set the attributes for the link element
+      link.href = '/images/icon1.png';
+      link.rel = 'icon';
+      link.type = 'image / x - icon'
+
+      // Append the link element to the head section
+      document.head.appendChild(link);
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/js.js">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <!--- nav start ---->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+
+    <a class="navbar-brand" href="/index.html"><img class="logo" herf="/index.html"
+        src="high-resolution-logo-black-on-transparent-background.png"></a>
+    <!---- company logo-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse justify-content-end navbar-collapse" id="navbarNavDropdown">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-group mb-0">
+            <input type="text" class="form-control rounded-0 input-text" placeholder="Search . ."
+              aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary btn-lg" type="button"><i class="bi bi-search"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav nav-item">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#results">designs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#materials">Materials</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Branch
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#learning">fabrics</a>
+            <a class="dropdown-item" href="#learning">organza</a>
+            <a class="dropdown-item" href="#learning">cotton</a>
+            <a class="dropdown-item" href="#learning">nylon</a>
+            <a class="dropdown-item" href="#learning">rayon</a>
+            <a class="dropdown-item" href="#learning">silk</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#support">stiching</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--- nav end-->
+
+  <!---- opening opage start-->
+  <section class="bannerBgImage " id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bannerText">
+          <h1 class="bannerTitle" style="font-size:6.5vw">The One Stop For All fashion clothing needs . . !</h1>
+          <p class="bannerDesc">We add a step towards your fashion sense.</p>
+          <a href="#results" ><button class="button button1" type="submit">explore <i class="bi bi-arrow-right"></i></button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----- opening page end-->
+
+  <!----- result position start-->
+  <section class="bannerBgImage1" id="results">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bannerText01">
+          <h1 class="bannerTitle1" style="font-size:4vw">Know Your dressing style.</h1>
+          <p class="bannerDesc1">check your Body type . . </p>
+          <button class="button button1"  type="submit">clothing Requirements<i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----- result position end-->
+
+  <!--- learning path position start-->
+  <section class="bannerBgImage2" style="margin-right: 30vw;" id="learning">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bannerText2" style="margin-right: 0vw;">
+          <h1 class="bannerTitle2" style="font-size:3.5vw">Challenge yourself to style.</h1>
+          <p class="bannerDesc2">Never chase opportunities to style . Let it come to you by choosing us  . . </p>
+          <button class="button button1" type="submit">fill your styling needs  <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--- learning path position end-->
+
+  <!----- materials position start-->
+  <section class="bannerBgImage3" id="materials">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bannerText3">
+          <h1 class="bannerTitle3" style="font-size:3.5vw">Find your  Materials here . . </h1>
+          <p class="bannerDesc3">search your  favorite colour here . . . . </p>
+          <button class="button button1" type="submit">Materials <i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---- materials position end-->
+
+  <!---- Updates section start-->
+  <section>
+    <div>
+      <h1
+        style="text-align: center; font-weight: 700; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: unset; font-size: 5vw; background:scroll;">
+        Updates.</h1>
+    </div>
+    <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="icon1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title that wraps to a new line</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in fabric with new designs to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>Your Designing needs </p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Fabric works</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="C:\Users\preethi ciliveru\OneDrive\Desktop\samples\oyasis\oasis infobyte\images\improve skills.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">clothing Model </h5>
+          <p class="card-text">Clothing Model
+          </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>get your Model sarees </p>
+          <footer class="blockquote-footer">
+            <small>
+              Someone famous in <cite title="Source Title">sarees</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content. Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Nulla esse, cumque natus, praesentium dolore, aspernatur
+            hic aliquid eaque ea perferendis totam magnam et culpa placeat. Perspiciatis, sapiente. Obcaecati, ratione
+            ipsa?</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="materials.png" alt="Card image">
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---- updates section end-->
+
+  <!---- partners section start-->
+  <section>
+    <div class="card bg-light text-dark  ">
+      <img class="card-img partner-img" src="institution.png" alt="Card image">
+      <div class="card-img-overlay partner">
+        <h1 class="card-title card-title1">Our Partners</h1>
+        <h6> -----------------------------------</h6>
+        <p class="card-text card-text1">We Colloborate with all  the handloom merchants all over India to provide better
+          designs, and we constantly provides the service to our trusted customers. . . </p>
+        <ul class="card-text1">
+          <li>newra Fashions</li>
+          <li>MINA Textiles.</li>
+          <li>Bomba fabricsy</li>
+          <li>Vasavi designs</li>
+          <li>St Mary's works</li>
+          <li>SANA textiles</li>
+          <li>Madras designs</li>
+          . . . .
+          . . . .
+        </ul>
+        <p class="card-text card-text1">Last updated 3 mins ago</p>
+      </div>
+    </div>
+  </section>
+
+  <!--- partners section end-->
+
+  <!-- team section start-->
+  <section>
+    <div class="team-boxed team badge-light">
+      <div class="container" style="margin-top: 5vw;">
+        <div class="intro">
+
+          <h1 class="text-center font-weight-bold ">Team </h1>
+
+        </div>
+        <div class="row people">
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box shadow"><img class="rounded-circle" src="boy.png">
+              <h3 class="name">preethi</h3>
+              <p class="title">head of the organization </p>
+              <p class="description">specialized to provide quality content
+                .</p>
+              <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+          </div>
+          <!--- below members are not my tean added them for ux only-->
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box shadow"><img class="rounded-circle" src="girl.png">
+              <h3 class="name">harshuv mehata</h3>
+              <p class="title">marketing head</p>
+              <p class="description">completed masters in MBA
+                </p>
+              <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box shadow"><img class="rounded-circle" src="girl.png">
+              <h3 class="name">riya</h3>
+              <p class="title">Product Manager</p>
+              <p class="description">product development team </p>
+              <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  </section>
+  <!--- team section end-->
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-google"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="" id="support">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-5 col-xl-3 mx-auto mb-5">
+            <!-- Content -->
+            <img class="logo1" src="high-resolution-logo-black-on-transparent-background.png">
+
+            </h6>
+            <p>
+              This platform is designed and developed by preethi.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-5">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">your Designing Paths</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">your outcome</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Materials</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">process</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-5">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Updates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-5">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="bi bi-home me-3 text-secondary"></i>  India, 508213</p>
+            <p>
+              <i class="bi bi-envelope me-3 text-secondary"></i>
+              prethzzzz@gmail.com
+            </p>
+            <p><i class="bi bi-phone me-3 text-secondary"></i> 9347001481 </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-5">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">Scan to Chat</h6>
+            <img class="logo1" src="contact.jpeg">
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="#">Fasho.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>

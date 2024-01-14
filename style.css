@@ -1,0 +1,448 @@
+.logo {
+    max-width: 160px;
+    margin-bottom: 8px;
+}
+
+.logo1 {
+    max-width: 220px;
+    margin-bottom: 8px;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.input-text:focus {
+
+
+    box-shadow: 0px 0px 0px;
+    border-color: #0e0d0b;
+    outline: 0px;
+}
+
+.form-control {
+    border: 1px solid #121110;
+}
+
+.button {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #ffffff;
+    text-transform: none;
+    font-size: 1vw;
+    font-weight: 700;
+    letter-spacing: .15rem;
+    transition: all 1.3s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #060606;
+}
+
+.button1 {
+    background-color: #090909;
+    color: white;
+}
+
+.bannerBgImage {
+    height: 60vW;
+    background: url("/images/opening\ banner.jpg");
+    background-size: cover;
+    position: inherit;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+
+.bannerText {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    float: inline-start;
+    margin-top: 10vw;
+    transform: translate(-50%, -50%);
+    color: rgb(2, 2, 2);
+}
+
+.bannerTitle {
+    margin-top: 40vW;
+    width: 60%;
+    font-size: 6vw;
+    font-weight: 700s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform-style: preserve-3d;
+}
+
+.bannerDesc {
+    font-size: 2vw;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bannerBgImage1 {
+    height: 51vW;
+    background: url("/images/result.jpg");
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.bannerText01 {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 35vw;
+    margin-top: 15VW;
+    transform: translate(-50%, -50%);
+    color: rgb(2, 2, 2);
+}
+
+.bannerTitle1 {
+    margin-top: 25vW;
+    position: relative;
+    width: 30vw;
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bannerDesc1 {
+    font-size: 2vw;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.bannerBgImage2 {
+    height: 50vW;
+    background: url("/images/improve.gif");
+    background-size: cover;
+    background-position: left;
+    position: inherit;
+    margin-top: 5vw;
+
+}
+
+.bannerText2 {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    float: inline-start;
+    margin-top: 10VW;
+    margin-left: 25vw;
+    transform: translate(-50%, -50%);
+    color: rgb(2, 2, 2);
+}
+
+.bannerTitle2 {
+    margin-top: 10vW;
+    font-size: 6vw;
+    margin-left: 25vw;
+    margin-right: 6vw;
+    font-weight: 700s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bannerDesc2 {
+    font-size: 1.5vw;
+    text-align: right;
+    width: 55%;
+    margin-left: 35vw;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bannerBgImage3 {
+    height: 50vW;
+    background: url("/images/materials.png");
+    background-size: cover;
+    background-position: left;
+    position: inherit;
+    margin-top: 8vw;
+}
+
+.bannerText3 {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    float: inline-start;
+    margin-top: 20VW;
+    transform: translate(-50%, -50%);
+    color: rgb(2, 2, 2);
+}
+
+.bannerTitle3 {
+    margin-top: 10vW;
+    font-size: 6vw;
+    font-weight: 700s;
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bannerDesc3 {
+    font-size: 1.5vw;
+    text-align: left;
+    width: 40%;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.team-boxed {
+    color: #313437;
+    background-color: #eef4f7;
+}
+
+.team-boxed p {
+    color: #7d8285;
+}
+
+.team-boxed h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .team-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.team-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.team-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.team-boxed .people {
+    padding: 50px 0;
+}
+
+.team-boxed .item {
+    text-align: center;
+}
+
+.team-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+}
+
+.team-boxed .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.team-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+    max-width: 160px;
+}
+
+.team-boxed .social {
+    font-size: 18px;
+    color: #a2a8ae;
+}
+
+.team-boxed .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+    opacity: 1;
+}
+
+.card-text1 {
+    font-size: large;
+    width: 50%;
+}
+
+.card-title1 {
+    margin-top: 0%;
+    font-weight: 700;
+}
+
+.team {
+    margin-top: 10vw;
+}
+
+.partner {
+    margin-top: 5vw;
+}
+
+.partner-img {
+    height: 50vw;
+    margin-left: 20vw;
+    float: right;
+}
+
+@media screen and (max-width: 320px) {
+    .bannerBgImage {
+        margin-top: 23vw;
+    }
+
+    .button {
+        font-size: 2.5vw;
+        font-weight: 400;
+        padding: .35rem .65rem;
+    }
+
+    .bannerDesc {
+        font-size: 3vw;
+        width: 60%;
+    }
+
+    .bannerDesc1 {
+        font-size: 3vw;
+    }
+
+    .bannerText01 {
+        margin-left: 20vw;
+    }
+
+    .bannerTitle2 {
+        margin-top: 25vw;
+        width: 80%;
+        margin-left: 45px;
+
+    }
+
+    .bannerDesc2,
+    .bannerDesc3 {
+
+        font-size: 3vw;
+        margin-left: 7.5vw;
+        width: 100%;
+
+    }
+
+    .bannerDesc3 {
+
+        font-size: 3vw;
+        width: 50%;
+        margin-left: 0vw;
+    }
+
+    .card-text1 {
+        font-size: small;
+        width: 100%;
+    }
+
+    .card-title1 {
+        margin-top: 45vw;
+    }
+
+    .team {
+        margin-top: 10vw;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .bannerBgImage {
+        margin-top: 10vw;
+    }
+
+    .button {
+        font-size: 2.5vw;
+        font-weight: 400;
+        padding: .35rem .65rem;
+    }
+
+    .bannerDesc {
+        font-size: 3vw;
+        width: 60%;
+    }
+
+    .bannerDesc1 {
+        font-size: 3vw;
+    }
+
+    .bannerText01 {
+        margin-left: 20vw;
+    }
+
+    .bannerTitle2 {
+        margin-top: 25vw;
+        width: 100%;
+        margin-left: 5vw;
+
+    }
+
+    .bannerDesc2 {
+
+        font-size: 3vw;
+        margin-left: 9vw;
+        width: 100%;
+
+    }
+
+    .bannerDesc3 {
+        margin-top: 5vw;
+        font-size: 3vw;
+        width: 50%;
+        margin-left: 0vw;
+    }
+
+    .card-text1 {
+        font-size: small;
+        width: 100%;
+    }
+
+    .card-title1 {
+        margin-top: 45vw;
+    }
+
+    .team {
+        margin-top: 70vw;
+    }
+
+    .partner {
+        margin-top: -35vw;
+    }
+    .partner-img {
+        height: 50vw;
+    
+        float: right;
+    }
+}
